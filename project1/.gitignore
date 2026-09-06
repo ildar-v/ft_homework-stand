@@ -1,0 +1,10 @@
+# per-exercise GoLand project files — not shared, regenerated locally
+**/.idea/
+
+# compiled binaries from `go build` in exercise folders (they take the folder/module name,
+# no extension, so this catches the common case without touching tracked .go/.mod files)
+exercises/*/[0-9a-z]*
+!exercises/*/*.go
+!exercises/*/go.mod
+!exercises/*/go.sum
+!exercises/*/*.md
